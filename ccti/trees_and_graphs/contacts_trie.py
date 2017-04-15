@@ -42,7 +42,7 @@ for contact in contacts:
     if len(contact) > 0:
         trie.add_contact(contact, trie)
 
-find_contacts = ["P"]
+find_contacts = ["Mu"]
 
 for prefix in find_contacts:
     if len(prefix) > 0:

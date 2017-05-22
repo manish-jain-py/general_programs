@@ -5,7 +5,7 @@ class Node:
         self.next = None
 
     def __str__(self):
-        return self.key + "->" + str(self.next)
+        return str(self.key) + "->" + str(self.next)
 
 
 class LinkedList:
